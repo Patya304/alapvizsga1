@@ -42,7 +42,7 @@ print(f'Melyik a nagyobb?: 12 és -8 közül a nagyobb: {nagyobb(12, -8)}\n')
 # Írj "szamtani_kozep" néven függvényt, amely két számot kap bemenetként és visszatér a számtani középpel.'''
 
 def szamtani_kozep(szam1, szam2):
-    ...
+    return (szam1+szam2)/2
 
 print(f'Számtani közép: 3.0 és 5.0 számtani közepe: 4.0')
 print(f'Számtani közép: 3.0 és 5.0 számtani közepe: {szamtani_kozep(3, 5)}\n')
@@ -166,7 +166,4 @@ def hettel_oszthato(szam1):
 
 print(f'Héttel osztható: Ha a  szám 21 akkor a visszatérési érték: True')
 print(f'Héttel osztható: Ha a  szám 21 akkor a visszatérési érték: {hettel_oszthato(21)}\n')
-
-
-
 #------------------------------------------------------------------------------------------------------------
